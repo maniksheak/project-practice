@@ -1,0 +1,207 @@
+#header {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(gray, white);
+    background-repeat: no-repeat;
+}
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/header.jpg.jpg);
+    width: 100%;
+    height: 500px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    padding-top:8rem;
+}
+ p {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+.btn {
+    text-align: center;
+    margin-left: 45rem;
+    background:coral;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+.btn:hover {
+    background-color: greenyellow;
+    color: black;
+}
+#donate {
+    padding-top: 5rem;
+}
+h2 {
+    text-align: center;
+    font-weight: 1000;
+    font-size: 2.2rem;
+}
+p {
+    color:rgb(55, 73, 238);
+    font-size: 1.2rem;
+}
+.number {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ 
+}
+.number div {
+    margin: 3rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.number-1 {
+    background-color: rgb(233, 226, 226);
+    border: 1px rgb(248, 245, 245) solid;
+    height: 5rem;
+    width: 5rem;
+    padding-top: 2rem;
+    margin: 1rem 0;
+}
+.number-2 {
+    background-color: rgb(245, 154, 154);
+    color: red;
+    border:  1px red solid;
+    height: 5rem;
+    width: 5rem;
+    padding-top: 2rem;
+    margin: 1rem 0;
+}
+hr {
+    width: 60%;
+}
+.body {
+    padding-top: 3rem;
+}
+.body-content {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+img {
+    height:3rem;
+    width: 3rem;
+    margin-top:2rem;
+    margin-right: 12rem;
+}
+.body-1 {
+    background: rgb(185, 227, 243);
+    margin: 1rem;
+}
+.body-2 {
+    background: rgb(241, 197, 76);
+    margin: 1rem;
+}
+.body-3 {
+    background: rgb(241, 231, 191);
+    margin: 1rem;
+}
+
+.help-center {
+    padding-top: 5rem;
+}
+.help-body {
+    display: flex;
+}
+/* .help-body div {
+    margin-left: 15rem;
+} */
+.btn-primary {
+    text-align: center;
+    background:rgb(236, 99, 126);
+    color: white;
+    padding: 10px 0;
+    font-size: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    margin: 0 8rem;
+}
+.help-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-primary:hover {
+    background: greenyellow;
+    color: black;
+}
+.help-body img {
+    width: 500px;
+    height: 400px;
+    margin-left: 4rem;
+    background-position: center;
+    background-size: cover;
+    /* margin-left: 6rem; */
+}
+.content {
+    padding-top: 5rem;
+}
+.content-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.content-body img {
+    width: 500px;
+    height: 400px;
+    margin-left: 4rem;
+    background-position: center;
+    background-size: cover;
+    /* margin-left: 6rem; */
+}
+.footer {
+    padding-top: 5rem;
+}
+
+.footer-body {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background: rgb(240, 224, 160) ;
+    height: 125px;
+    padding-top: 3rem;
+    margin: 4rem 25rem;
+}
+input {
+    padding: 5px;
+}
+.sub {
+    padding: 5px;
+    background: coral;
+    color: white;
+}
+.sub:hover {
+    background: green;
+}
+.lower {
+    padding-top:2rem;
+    background: black;
+    height: 140px;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-style: italic;
+    color: chocolate;
+    font-size: 1.8rem;
+}
